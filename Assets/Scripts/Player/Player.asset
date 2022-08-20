@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 997d15524c0661f4a9fcc7d6fe75ccac, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  life: 100
+  lifeRecover: 1
+  stamina: 100
+  staminaRecover: 15
+  walkingSpeed: 3
+  runningSpeed: 7
+  jumpingForce: 8
+  fistPower: 20
+  kickPower: 15
+  shurikenPower: 15
+  runningConsuming: 15
+  jumpingConsuming: 10
+  fistConsuming: 20
+  kickConsuming: 15
+  shurikenConsuming: 10
+  shuriken: 10
+  currentLife: 100
+  currentStamina: 100
+  currentShuriken: 10
+  isDead: 0
